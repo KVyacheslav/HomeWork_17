@@ -1,0 +1,9 @@
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Release\SystemBank.dll
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Release\SystemBank.pdb
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Release\SystemBank.csproj.AssemblyReference.cache
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Release\SystemBank.csproj.CoreCompileInputs.cache
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Release\SystemBank.dll
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Release\SystemBank.pdb
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Release\System.Data.SqlClient.dll
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Release\System.Data.SqlClient.xml
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Release\SystemBank.csproj.CopyComplete

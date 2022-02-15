@@ -1,0 +1,59 @@
+﻿<Window x:Class="HomeWork_17.WindowTransferToBankAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork_17"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        FontFamily="Rostov"
+        Height="320" 
+        Width="300"
+        MouseLeftButtonDown="WindowTransferToBankAccount_OnMouseLeftButtonDown">
+
+    <Window.Background>
+        <ImageBrush ImageSource="background.jpg" />
+    </Window.Background>
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Текущий расчётный счёт"
+                   Margin="10"
+                   HorizontalAlignment="Center"/>
+            
+            <TextBox x:Name="tbBankAccount"
+                     IsReadOnly="True"
+                     Margin="10"/>
+
+            <TextBlock Text="Счёт, на который осуществляется перевод"
+                   Margin="10"
+                   HorizontalAlignment="Center"/>
+
+            <ComboBox x:Name="cbBankAccounts"
+                      Margin="10"
+                      SelectionChanged="cbBankAccounts_SelectionChanged"
+                      SelectedIndex="0"/>
+
+            <StackPanel Orientation="Horizontal"
+                        Margin="10">
+                <TextBlock Text="Сумма перевода: "/>
+                <TextBlock x:Name="tbSum"/>
+            </StackPanel>
+
+            <Slider x:Name="slSum"
+                    Margin="10"
+                    Minimum="0"
+                    Maximum="{Binding Sum}"
+                    ValueChanged="slSum_ValueChanged"/>
+
+            <Button Content="Перевести"
+                    Margin="10"
+                    Click="Transfer"/>
+
+            <Button Content="Закрыть"
+                    Margin="10"
+                    Click="CloseWindow"/>
+        </StackPanel>
+    </Grid>
+</Window>

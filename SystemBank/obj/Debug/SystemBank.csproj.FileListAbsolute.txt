@@ -1,0 +1,35 @@
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_14\GitLab\homework_14\SystemBank\obj\Debug\SystemBank.csproj.AssemblyReference.cache
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_14\GitLab\homework_14\SystemBank\obj\Debug\SystemBank.csproj.CoreCompileInputs.cache
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_14\GitLab\homework_14\SystemBank\bin\Debug\SystemBank.dll
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_14\GitLab\homework_14\SystemBank\bin\Debug\SystemBank.pdb
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_14\GitLab\homework_14\SystemBank\obj\Debug\SystemBank.dll
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_14\GitLab\homework_14\SystemBank\obj\Debug\SystemBank.pdb
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_15\GitLab\homework_15\SystemBank\bin\Debug\SystemBank.dll
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_15\GitLab\homework_15\SystemBank\bin\Debug\SystemBank.pdb
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_15\GitLab\homework_15\SystemBank\obj\Debug\SystemBank.csproj.AssemblyReference.cache
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_15\GitLab\homework_15\SystemBank\obj\Debug\SystemBank.csproj.CoreCompileInputs.cache
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_15\GitLab\homework_15\SystemBank\obj\Debug\SystemBank.dll
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_15\GitLab\homework_15\SystemBank\obj\Debug\SystemBank.pdb
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_15\SystemBank\bin\Debug\SystemBank.dll
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_15\SystemBank\bin\Debug\SystemBank.pdb
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_15\SystemBank\obj\Debug\SystemBank.csproj.AssemblyReference.cache
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_15\SystemBank\obj\Debug\SystemBank.csproj.CoreCompileInputs.cache
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_15\SystemBank\obj\Debug\SystemBank.dll
+C:\Users\Vyacheslav\Desktop\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_15\SystemBank\obj\Debug\SystemBank.pdb
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_16\SystemBank\bin\Debug\SystemBank.dll
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_16\SystemBank\bin\Debug\SystemBank.pdb
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_16\SystemBank\obj\Debug\SystemBank.csproj.AssemblyReference.cache
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_16\SystemBank\obj\Debug\SystemBank.csproj.CoreCompileInputs.cache
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_16\SystemBank\obj\Debug\SystemBank.dll
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_16\GitLab\homework_16\SystemBank\obj\Debug\SystemBank.pdb
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Debug\SystemBank.dll
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Debug\SystemBank.pdb
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Debug\System.Data.SqlClient.dll
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Debug\System.Data.SqlClient.xml
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Debug\SystemBank.csproj.AssemblyReference.cache
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Debug\SystemBank.csproj.CoreCompileInputs.cache
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Debug\SystemBank.csproj.CopyComplete
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Debug\SystemBank.dll
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\obj\Debug\SystemBank.pdb
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Debug\Newtonsoft.Json.dll
+C:\Users\slava\OneDrive\Рабочий стол\SkillBox\C#_HomeWorks\Module_17\GitLab\homework_17\SystemBank\bin\Debug\Newtonsoft.Json.xml

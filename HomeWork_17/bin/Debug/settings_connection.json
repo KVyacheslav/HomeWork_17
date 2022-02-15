@@ -1,0 +1,6 @@
+{
+  "settings_connection": {
+    "data_source": "localhost\\SQLEXPRESS",
+    "data_base": "SkillboxDB"
+  }
+}

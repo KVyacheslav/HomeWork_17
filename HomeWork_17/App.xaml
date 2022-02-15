@@ -1,0 +1,12 @@
+﻿<Application x:Class="HomeWork_17.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HomeWork_17"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="PointerPC">pack://application:,,,/Fonts/#Ponter PC</FontFamily>
+        <FontFamily x:Key="Rostov">pack://application:,,,/Fonts/#Rostov</FontFamily>
+        <FontFamily x:Key="COPRGTB">pack://application:,,,/Fonts/#COPRGTB</FontFamily>
+        <FontFamily x:Key="COPRGTL">pack://application:,,,/Fonts/#COPRGTL</FontFamily>
+    </Application.Resources>
+</Application>

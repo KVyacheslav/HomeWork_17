@@ -1,0 +1,70 @@
+﻿<Window x:Class="HomeWork_17.WindowTransferToClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork_17"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        FontFamily="Rostov"
+        Height="400" 
+        Width="300"
+        MouseLeftButtonDown="WindowTransferToClient_OnMouseLeftButtonDown">
+
+    <Window.Background>
+        <ImageBrush ImageSource="background.jpg" />
+    </Window.Background>
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Текущий расчётный счёт"
+                       Margin="10"
+                       HorizontalAlignment="Center"/>
+
+            <ComboBox x:Name="cbCurrentBankAccounts"
+                      Margin="10"
+                      SelectionChanged="CbCurrentBankAccounts_OnSelectionChanged"
+                      SelectedIndex="0"/>
+
+            <TextBlock Text="Перевод клиенту"
+                       Margin="10"/>
+
+            <ComboBox x:Name="cbClients"
+                      Margin="10"
+                      SelectionChanged="CbClients_OnSelectionChanged"
+                      SelectedIndex="0"/>
+
+            <TextBlock Text="Счёт, на который осуществляется перевод"
+                       Margin="10"
+                       HorizontalAlignment="Center"/>
+
+            <ComboBox x:Name="cbClientBankAccounts"
+                      Margin="10"
+                      SelectionChanged="CbClientBankAccounts_OnSelectionChanged"
+                      MaxHeight="20"
+                      Height="20"
+                      SelectedIndex="0"/>
+
+            <StackPanel Orientation="Horizontal"
+                        Margin="10">
+                <TextBlock Text="Сумма перевода: "/>
+                <TextBlock x:Name="tbSum"/>
+            </StackPanel>
+
+            <Slider x:Name="slSum"
+                    Margin="10"
+                    Minimum="0"
+                    Maximum="{Binding Sum}"
+                    ValueChanged="slSum_ValueChanged"/>
+
+            <Button Content="Перевести"
+                    Margin="10"
+                    Click="Transfer"/>
+
+            <Button Content="Закрыть"
+                    Margin="10"
+                    Click="CloseWindow"/>
+        </StackPanel>
+    </Grid>
+</Window>

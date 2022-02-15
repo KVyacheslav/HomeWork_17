@@ -1,0 +1,68 @@
+﻿<Window x:Class="HomeWork_17.WindowEditClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:HomeWork_17"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Height="400" 
+        Width="250"
+        FontFamily="Rostov"
+        MouseLeftButtonDown="WindowEditClient_OnMouseLeftButtonDown">
+
+    <Window.Background>
+        <ImageBrush ImageSource="background.jpg"/>
+    </Window.Background>
+
+    <Window.Resources>
+        <x:Array x:Key="Array" Type="sys:String">
+            <sys:String>Физическое лицо</sys:String>
+            <sys:String>Юридическое лицо</sys:String>
+        </x:Array>
+    </Window.Resources>
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Данные о клиенте"
+                       HorizontalAlignment="Center"
+                       Margin="10"/>
+            <TextBlock Text="Фамилия Имя Отчество" 
+                       Margin="10"/>
+            <TextBox x:Name="tbName"
+                     IsReadOnly="True"
+                     IsEnabled="False"
+                     Margin="10"/>
+            <TextBlock Text="Тип клиента" 
+                       Margin="10"/>
+            <ComboBox x:Name="cbTypes"
+                      ItemsSource="{StaticResource Array}"
+                      Margin="10"/>
+            <StackPanel Orientation="Horizontal"
+                       Margin="10">
+                <TextBlock Text="Привилегии" 
+                           Width="150"/>
+                <CheckBox x:Name="chbIsVip"/>
+            </StackPanel>
+            <TextBlock Text="При их наличии, баланс расчётного счёта будет увеличиваться быстрее. 
+                       Так же пониженный процент кредита."
+                       TextWrapping="Wrap"
+                       Margin="10"/>
+            <Button x:Name="btnEditClient"
+                    Width="100"
+                    Margin="10"
+                    Content="Изменить"
+                    Click="EditClient"
+                    Height="30"/>
+
+            <Button Width="100"
+                    Margin="10"
+                    Content="Закрыть"
+                    Click="CloseWindow"
+                    Height="30"/>
+        </StackPanel>
+    </Grid>
+</Window>
+

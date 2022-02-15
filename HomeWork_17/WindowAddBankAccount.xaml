@@ -1,0 +1,58 @@
+﻿<Window x:Class="HomeWork_17.WindowAddBankAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork_17"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        FontFamily="Rostov"
+        Height="270" 
+        Width="250"
+        MouseLeftButtonDown="WindowAddBankAccount_OnMouseLeftButtonDown">
+
+    <Window.Background>
+        <ImageBrush ImageSource="background.jpg"/>
+    </Window.Background>
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Расчётный счёт"
+                       HorizontalAlignment="Center"
+                       Margin="10"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Первоначальный баланс"
+                           Width="145"
+                           Margin="10 10 0 10"/>
+                <TextBlock x:Name="tbBalance"
+                           Text="1000"
+                           Margin="0 10"/>
+            </StackPanel>
+            <Slider x:Name="slBalance"
+                    Margin="10"
+                    Minimum="1000"
+                    Maximum="10000" 
+                    ValueChanged="slBalance_ValueChanged" />
+
+            <TextBlock Text="Капитализация"
+                       Margin="10"/>
+            <CheckBox x:Name="chbCapitalization"
+                      Margin="10"/>
+
+            <Button x:Name="btnAddBankAccount"
+                    HorizontalAlignment="Center"
+                    Width="100"
+                    Height="25"
+                    Margin="10"
+                    Content="Добавить"
+                    Click="AddBankAccount"/>
+
+            <Button HorizontalAlignment="Center"
+                    Width="100"
+                    Height="25"
+                    Margin="10"
+                    Content="Закрыть"
+                    Click="CloseWindow"/>
+        </StackPanel>
+    </Grid>
+</Window>

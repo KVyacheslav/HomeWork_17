@@ -1,0 +1,91 @@
+﻿<Window x:Class="HomeWork_17.WindowAddBankCredit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:HomeWork_17"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Height="430" 
+        Width="300" 
+        FontFamily="Rostov"
+        MouseLeftButtonDown="WindowAddBankCredit_OnMouseLeftButtonDown">
+
+    <Window.Background>
+        <ImageBrush ImageSource="background.jpg"/>
+    </Window.Background>
+
+    <Window.Resources>
+        <x:Array x:Key="ArrayTimes" Type="sys:String">
+            <sys:String>1 год</sys:String>
+            <sys:String>3 года</sys:String>
+            <sys:String>5 лет</sys:String>
+        </x:Array>
+        <x:Array x:Key="ArrayPercentes" Type="sys:String">
+            <sys:String>30 %</sys:String>
+            <sys:String>20 % (Для VIP клиентов)</sys:String>
+        </x:Array>
+    </Window.Resources>
+    
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Расчётный счёт"
+                       HorizontalAlignment="Center"
+                       Margin="10"/>
+
+            <TextBlock Text="Срок"
+                       Margin="10"/>
+            <ComboBox x:Name="cbTimeCredit"
+                      ItemsSource="{StaticResource ArrayTimes}"
+                      SelectedIndex="0"
+                      SelectionChanged="cbTimeCredit_SelectionChanged"
+                      Margin="10"/>
+            
+            <TextBlock Text="Процент"
+                       Margin="10"/>
+            <ComboBox x:Name="cbPercent"
+                      ItemsSource="{StaticResource ArrayPercentes}"
+                      SelectionChanged="cbPercent_SelectionChanged"
+                      SelectedIndex="0"
+                      Margin="10"/>
+            
+            <TextBlock Text="Расчётные счета"
+                       Margin="10"/>
+            <ComboBox x:Name="cbBankAccounts"
+                      SelectionChanged="cbBankAccounts_SelectionChanged"
+                      Margin="10"/>
+
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Сумма кредита:"
+                           Width="90"
+                           Margin="10"/>
+                <TextBlock x:Name="tbBalance"
+                           Text="1000"
+                           Margin="10"/>
+            </StackPanel>
+            <Slider x:Name="slBalance"
+                    Margin="10"
+                    Minimum="500"
+                    Maximum="{Binding Sum}" 
+                    ValueChanged="slBalance_ValueChanged" />
+
+            <Button x:Name="btnAddBankCredit"
+                    HorizontalAlignment="Center"
+                    Width="100"
+                    Height="25"
+                    Margin="10 5"
+                    Content="Добавить"
+                    Click="AddBankCredit"/>
+
+            <Button HorizontalAlignment="Center"
+                    Width="100"
+                    Height="25"
+                    Margin="10 5"
+                    Content="Закрыть"
+                    Click="CloseWindow"/>
+        </StackPanel>
+    </Grid>
+</Window>
